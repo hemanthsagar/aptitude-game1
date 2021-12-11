@@ -1,0 +1,173 @@
+<div class="split left" align="center">
+  <div class="centered">
+    <div class="content1" align="center" style="background-color:rgb(243, 133, 35)" >
+        <h1 style="color:black">game by HEMANTH SAGAR</h1>
+    </div>
+    <div class="content2" style="background-color:rgb(183, 209, 203)">
+
+      <div class="content1" align="center"  > 
+        <h1 style="color:red">Score : {{userscore}}</h1>
+      </div>
+
+      <div class="content1" align="center"  >
+        <button mat-raised-button (click)="startorstop()">
+          <h1 style="color:black">{{buttonstate}}</h1>
+        </button>
+      </div>
+
+    <div class="content1" align="center"  >
+          <h1 style="color:yellow">user high score : {{highscore}}</h1>
+      </div>
+
+    </div>
+
+    <div class="content1" align="center"  >
+          <h1 style="color:black">Value : {{val}}</h1>
+      </div>
+    <table width=360 height=360>
+      <tr>
+        <th>
+          <div class="button-row">
+            <button *ngIf="isShow1" [ngClass]="{'test1': newColor1}" (click)="click1()" mat-fab>{{button1}}</button>
+          </div>
+        </th>
+        <th>
+          <div class="button-row">
+            <button *ngIf="isShow2" [ngClass]="{'test2': newColor2}" (click)="click2()" mat-fab>{{button2}}</button>
+          </div>
+        </th>
+        <th>
+          <div class="button-row">
+            <button *ngIf="isShow3" [ngClass]="{'test3': newColor3}" (click)="click3()" mat-fab>{{button3}}</button>
+          </div>
+        </th>
+        <th>
+          <div class="button-row">
+            <button *ngIf="isShow4" [ngClass]="{'test4': newColor4}" (click)="click4()" mat-fab>{{button4}}</button>
+          </div>
+        </th>
+        <th>
+          <div class="button-row">
+            <button *ngIf="isShow5" [ngClass]="{'test5': newColor5}" (click)="click5()" mat-fab>{{button5}}</button>
+          </div>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow6" [ngClass]="{'test6': newColor6}" (click)="click6()" mat-fab>{{button6}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow7" [ngClass]="{'test7': newColor7}" (click)="click7()" mat-fab>{{button7}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow8" [ngClass]="{'test8': newColor8}" (click)="click8()" mat-fab>{{button8}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow9" [ngClass]="{'test9': newColor9}" (click)="click9()" mat-fab>{{button9}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow10" [ngClass]="{'test10': newColor10}" (click)="click10()" mat-fab>{{button10}}</button>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow11" [ngClass]="{'test11': newColor11}" (click)="click11()" mat-fab>{{button11}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow12" [ngClass]="{'test12': newColor12}" (click)="click12()" mat-fab>{{button12}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow13" [ngClass]="{'test13': newColor13}" (click)="click13()" mat-fab>{{button13}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow14" [ngClass]="{'test14': newColor14}" (click)="click14()" mat-fab>{{button14}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow15" [ngClass]="{'test15': newColor15}" (click)="click15()" mat-fab>{{button15}}</button>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow16" [ngClass]="{'test16': newColor16}" (click)="click16()" mat-fab>{{button16}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow17" [ngClass]="{'test17': newColor17}" (click)="click17()" mat-fab>{{button17}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow18" [ngClass]="{'test18': newColor18}" (click)="click18()" mat-fab>{{button18}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow19" [ngClass]="{'test19': newColor19}" (click)="click19()" mat-fab>{{button19}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow20" [ngClass]="{'test20': newColor20}" (click)="click20()" mat-fab>{{button20}}</button>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow21" [ngClass]="{'test21': newColor21}" (click)="click21()" mat-fab>{{button21}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow22" [ngClass]="{'test22': newColor22}" (click)="click22()" mat-fab>{{button22}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow23" [ngClass]="{'test23': newColor23}" (click)="click23()" mat-fab>{{button23}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow24" [ngClass]="{'test24': newColor24}" (click)="click24()" mat-fab>{{button24}}</button>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button *ngIf="isShow25" [ngClass]="{'test25': newColor25}" (click)="click25()" mat-fab>{{button25}}</button>
+          </div>
+        </td>
+      </tr>
+
+      </table>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
